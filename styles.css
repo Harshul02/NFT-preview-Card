@@ -83,4 +83,9 @@ p {
 
  .one p{
     margin-top: 4px;
+    font-size: 17px;
+ }
+
+ .col{
+    color: white;
  }
