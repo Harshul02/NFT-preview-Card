@@ -1,0 +1,86 @@
+.attribution {
+     font-size: 11px;
+     text-align: center; 
+    }
+
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
+
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    height: 100vh;
+}
+
+.card{
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 0.625rem;
+    max-width: 17rem;
+    padding: 1rem;
+}
+
+img {
+    width: 100%;
+    border-radius: 0.625rem;
+    max-height: 18rem;
+    max-width: 18rem;
+}
+
+h1 {
+    font-size: 1.375rem;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+    /* text-align: center; */
+    width: 100%;
+}
+
+p {
+    font-size: 18px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color: hsl(215, 51%, 70%);
+    text-align: left;
+    display: inline;
+  }
+
+ .el{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .ele{
+    color: hsl(178, 100%, 50%);
+ }
+
+ hr{
+    border: none;
+    height: 2px;
+    background: hsl(215, 32%, 27%);
+    margin-top: 22px;
+ }
+
+ .one{
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .one img{
+    /* border-color: white; */
+    width: 13%;
+    height: 13%;
+    border: 1px solid white;
+    border-radius: 20px;
+ }
+
+ .one p{
+    margin-top: 4px;
+ }
